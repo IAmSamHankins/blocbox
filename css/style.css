@@ -320,6 +320,11 @@ header .hero img {
   margin-top: 0px;
 }
 
+@media (max-width: 991px) {
+  .box.middle {
+  margin-top: 25px;
+  }
+}
 .box h3 {
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight: 600;
