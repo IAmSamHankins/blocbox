@@ -581,6 +581,14 @@ footer .logo{
   margin-bottom: 8px;
 }
 
+.left-nav ul .active {
+    background-color: #34496E;
+    width: 150px;
+    padding: 6px;
+    padding-top: 10px;
+    margin-left: -6px;
+    border-radius: 4px;
+  }
 
 /* LEFT NAV BAR SETTINGS */
 
