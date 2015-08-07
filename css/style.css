@@ -731,6 +731,8 @@ footer .logo{
    top:0;
    left:0;
    right:0;
+   margin: auto 0;
+   display: block;
  }
 
  .item-box h2 {
