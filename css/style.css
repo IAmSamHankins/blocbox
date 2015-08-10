@@ -702,6 +702,11 @@ footer .logo{
    margin-top:8px;
  }
 
+ .left-nav .settings .menu
+{
+  text-align: left;
+}
+
 /* Content Styles */
 
 .content {
