@@ -325,6 +325,7 @@ header .hero img {
   margin-top: 25px;
   }
 }
+
 .box h3 {
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight: 600;
@@ -528,8 +529,8 @@ footer .logo{
   width:280px;
   float: left;
   position: absolute;
-     background: #34495E;
-   background-image: linear-gradient(206deg, #5F81A3 0%, #34495E 94%);
+  background: #34495E;
+  background-image: linear-gradient(206deg, #5F81A3 0%, #34495E 94%);
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -555,16 +556,19 @@ footer .logo{
 
  .hamburger {
    position:absolute;
+
    z-index: 1000;
    background:#34495E;
    color:#FFF;
    text-decoration: none;
-   font-size: 22px;
-   padding: 10px 15px;
+   font-size: 15px;
+   padding: 5px 10px;
    border-radius: 4px;
    left: 5px;
    top: 15px;
  }
+
+
 
 @media (min-width:992px) {
    .left-nav {
@@ -581,6 +585,7 @@ footer .logo{
      -o-transform: translate(0,0); /** Opera **/
      -moz-transform: translate(0,0); /** Firefox **/
    }
+
    .left-nav.open {
      width:14.66666667%;
      transform: translate(0,0);
@@ -599,6 +604,16 @@ footer .logo{
   display:block;
   text-align: center;
  }
+
+@media (max-width:991px) {
+   .left-nav .site-logo{
+  display:none;
+ }
+  .left-nav .items {
+    margin-top: 14px;
+    margin-left: 40px;
+  }
+}
 
 /* mine */
 
@@ -653,6 +668,7 @@ footer .logo{
 
 .left-nav .settings {
   position: absolute;
+  color:#FFFFFF;
   background: #22303E;
   width: 100%;
   bottom: 0;
@@ -695,13 +711,13 @@ footer .logo{
 }
 
 .content .header {
-  margin: 0 1% 20px;
+  margin: 8px 1% 20px;
 }
 
 .content .header h1 {
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight: 100;
-  margin:0 0 30px;
+  margin:0 0 30px 7%;
   font-size: 36px;
   color: #3498DB;
   line-height: 44px;
@@ -745,6 +761,16 @@ footer .logo{
      float:left;
      display:block;
    }
+  .content .header h1 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  margin:0 0 30px;
+  font-size: 36px;
+  color: #3498DB;
+  line-height: 44px;
+  float: left;
+  display:inline-block;
+}
  }
 
 /* Tablets */
@@ -763,6 +789,7 @@ footer .logo{
      margin:0 1% 25px;
    }
  }
+
 /* Laptops and Desktops */
 
  @media (min-width:992px) {
