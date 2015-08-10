@@ -674,7 +674,8 @@ footer .logo{
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 10px 0;
+  height: 50px;
+  padding: 10px 0 0px 0px;
 }
 
 .left-nav .settings img {
@@ -693,13 +694,13 @@ footer .logo{
   margin: 0 0 0 10px;
 }
 
-.left-nav .settings a{
-  color: #FFFFFF;
-  text-decoration: none;
-  text-align: right;
-  margin-right: 10px;
-  margin-top: 8px;
-}
+.left-nav .settings a {
+   color:#FFFFFF;
+   text-decoration: none;
+   float: right;
+   margin-right:10px;
+   margin-top:8px;
+ }
 
 /* Content Styles */
 
