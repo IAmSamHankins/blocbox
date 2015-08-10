@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="css/dropit.css"
 </head>
 <body class="dashboard">
+<!-- RESPONSIVE NAV -->
+  <a class="hamburger" id="menu" href="#">&#9776;</a>
 <!-- Left Nav -->
   <nav id="left-nav" class="left-nav">
     <a href="#" class="site-logo"><img src="images/site-logo.png" /></a>
@@ -121,6 +123,9 @@
   <script src="js/dropit.js"></script>
   <script type="text/javascript">
     $(".menu").dropit(); 
+    $( "#menu" ).click(function() {     
+      $("#left-nav").toggleClass("open", 200);      
+     });
   </script>
 
 </body>
